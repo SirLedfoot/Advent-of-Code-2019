@@ -4,6 +4,7 @@ numbers = []
 outputs = []
 total = 0
 
+#Recursive function call to calculate fuel
 def calcFuel(mass):
     temp = mass//3
     temp = temp-2
